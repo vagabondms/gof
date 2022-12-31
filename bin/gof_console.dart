@@ -1,6 +1,5 @@
-import 'package:gof_console/gof_console.dart' as gof_console;
+import 'package:gof_console/observer.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${gof_console.calculate()}!');
-  print('${gof_console.hi()}');
+  observerPattern();
 }
