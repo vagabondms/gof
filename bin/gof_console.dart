@@ -1,5 +1,6 @@
-import 'package:gof_console/observer.dart';
+import 'package:gof_console/decorator.dart';
 
 void main(List<String> arguments) {
-  observerPattern();
+  // observerPattern();
+  decoratorPattern();
 }
