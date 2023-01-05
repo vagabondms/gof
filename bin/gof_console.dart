@@ -1,8 +1,9 @@
-import 'package:gof_console/singleton.dart';
+import 'package:gof_console/command.dart';
 
 void main(List<String> arguments) {
   // observerPattern();
   // decoratorPattern();
   // factoryPattern();
-  Singleton();
+  // Singleton();
+  commandPattern();
 }
