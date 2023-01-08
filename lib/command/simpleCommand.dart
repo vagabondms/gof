@@ -1,4 +1,4 @@
-void commandPattern() async {
+void simpleCommandPattern() async {
   final rc = SimpleRemoteControl();
   rc.command = LightOnCommand(Light());
   rc.onTap();
