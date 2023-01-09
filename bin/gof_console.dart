@@ -1,4 +1,4 @@
-import 'package:gof_console/command/command.dart';
+import 'package:gof_console/adapter.dart';
 
 void main(List<String> arguments) {
   // observerPattern();
@@ -6,5 +6,6 @@ void main(List<String> arguments) {
   // factoryPattern();
   // Singleton();
   // simpleCommandPattern();
-  commandPattern();
+  // commandPattern();
+  adapterPattern();
 }
