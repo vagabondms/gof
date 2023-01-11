@@ -1,4 +1,4 @@
-import 'package:gof_console/facade.dart';
+import 'package:gof_console/iterator.dart';
 
 void main(List<String> arguments) {
   // observerPattern();
@@ -7,5 +7,6 @@ void main(List<String> arguments) {
   // Singleton();
   // simpleCommandPattern();
   // commandPattern();
-  facadePattern();
+  // facadePattern();
+  iteratorPattern();
 }
