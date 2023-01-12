@@ -1,4 +1,4 @@
-import 'package:gof_console/iterator.dart';
+import 'package:gof_console/state/state.dart';
 
 void main(List<String> arguments) {
   // observerPattern();
@@ -8,5 +8,7 @@ void main(List<String> arguments) {
   // simpleCommandPattern();
   // commandPattern();
   // facadePattern();
-  iteratorPattern();
+  // iteratorPattern();
+  // statePatternBefore();
+  statePattern();
 }
